@@ -1,0 +1,52 @@
+{
+  "webform_submissions": [
+    {
+      "id": 1,
+      "form_name": "Contact Form",
+      "name": "John Smith",
+      "email": "john.smith@email.com",
+      "subject": "Website redesign inquiry",
+      "message": "Hi, I'm interested in your web design services for my small business. Could we schedule a consultation to discuss my needs?",
+      "timestamp": "2025-09-11T21:45:00Z",
+      "ai_analysis": {
+        "spam_score": 0.05,
+        "confidence": 0.95,
+        "toxicity_score": 0.02,
+        "categories": ["business_inquiry"],
+        "status": "approved",
+        "flags": []
+      },
+      "human_verified": true
+    }
+  ],
+  "comments": [],
+  "posts": [],
+  "moderation_stats": {
+    "total_submissions_today": 47,
+    "auto_approved": 32,
+    "auto_rejected": 11,
+    "pending_review": 4,
+    "accuracy_rate": 0.94,
+    "false_positive_rate": 0.03,
+    "processing_time_avg": 340,
+    "human_review_time_saved": 156,
+    "top_spam_categories": [
+      { "category": "promotional", "count": 8 },
+      { "category": "clickbait", "count": 5 },
+      { "category": "suspicious_links", "count": 3 },
+      { "category": "toxic_content", "count": 2 }
+    ],
+    "ai_providers_used": [
+      { "name": "OpenAI Moderation", "usage": 85 },
+      { "name": "FlareGPT", "usage": 12 },
+      { "name": "Custom Model", "usage": 3 }
+    ]
+  },
+  "demo_scenarios": [
+    {
+      "title": "Legitimate Business Inquiry",
+      "description": "Professional contact form submission with clear business intent",
+      "expected_outcome": "Auto-approved with high confidence"
+    }
+  ]
+}
